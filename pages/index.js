@@ -104,7 +104,7 @@ export default function HomePage() {
     }
 
     if (!account) {
-      return <div><button onClick={connectAccount}>connect your metamask</button>
+      return <div><button onClick={connectAccount}>CONNECT TO YOUR MetaMask WALLET</button>
                   <hr></hr>
                   
       
@@ -131,7 +131,7 @@ export default function HomePage() {
         
         <button onClick={withdraw}>Withdraw 1 ETH</button>
         
-        <button onClick={() => burnTokens(1)}>Burn 1</button> {}
+        <button onClick={() => burnTokens(1)}>Burn 1 ETH</button> {}
         
         <br></br>
         <h2>Transaction History</h2>
@@ -152,16 +152,16 @@ export default function HomePage() {
   return (
     <div className="divi">
     <main className="container">
-      <header><h1>Welcome Anurag</h1></header>
+      <header><h1>Welcome Mamta </h1></header>
       {initUser()}
       <style jsx>{`
         .container {
-          background-color:neon ;
+          background-color:#9df2c9 ;
           text-align: center
           
         }
         .main{
-          background-color: #B6D0E2 ;
+          background-color: #9dd69c ;
         }
        
       `}
